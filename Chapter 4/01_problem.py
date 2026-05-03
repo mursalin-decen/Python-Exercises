@@ -1,0 +1,10 @@
+# 1. Write a program to store seven fruits in a list entered by the user.
+list=input("Enter seven fruits name: ")
+l1= input(list[0])
+input(list[1])
+input(list[2])
+input(list[3])
+input(list[4])
+input(list[5])
+input(list[6])
+print(list)
