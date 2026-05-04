@@ -1,10 +1,17 @@
 #ধর তোমারে বলছে যে ভাই তোমারে একটা কাজ করা লাগবে যদি কেও ১৮ বছরের নিছে এই ওয়েব সাইটে ঢুকে অরে বলবা
-#ভাই তুমি ১৮ এর নিচে আর যারা বড় তাদের বলবা ওয়েলকাম। 
-#its call if else statement: 
+#ভাই তুমি ১৮ এর নিচে আর যারা বড় তাদের বলবা ওয়েলকাম।
+
+#it is, if elif else ladder
 age = int(input("Enter your age: "))
 
-if(age>= 18): #BTW  we can see some space after if/ else line. before print() that's indactation
+if(age>= 18):
     print("\"WELCOME\"")
+
+elif(age<0):
+    print("You entered an invalid age")
+
+elif(age == 0):
+    print("Your entered age is 0 its not valid")
 
 else:
     print("Sorry, You are under 18")
